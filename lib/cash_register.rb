@@ -12,9 +12,8 @@ class CashRegister
     end 
 
     def apply_discount
-        total = total*((100.0 - discount.to_f)/100).to_i
-        # we want everything in parantheses to be .20
-        #binding.pry
+        total = total * ((100.0 - discount.to_f)/100).to_i
+      
     end 
 
 
